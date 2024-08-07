@@ -1,8 +1,9 @@
 /*
  * @Author: HHC
  * @Date: 2024-08-07 11:09:44
- * @LastEditTime: 2024-08-07 12:18:22
+ * @LastEditTime: 2024-08-07 13:43:31
  */
+
 export default function Login() {
     return (
         <div className="min-h-screen flex items-center justify-center w-full dark:bg-gray-950">
@@ -21,10 +22,10 @@ export default function Login() {
                             Password?</a>
                     </div>
                     <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center">
+                        {/* <div className="flex items-center">
                             <input type="checkbox" id="remember" className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:outline-none" checked />
                             <label htmlFor="remember" className="ml-2 block text-sm text-gray-700 dark:text-gray-300">Remember me</label>
-                        </div>
+                        </div> */}
                         <a href="#"
                             className="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Create
                             Account</a>

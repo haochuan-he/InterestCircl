@@ -1,14 +1,19 @@
+/*
+ * @Author: HHC
+ * @Date: 2024-08-06 11:31:42
+ * @LastEditTime: 2024-08-07 13:41:45
+ */
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import Login from './components/Login'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +32,8 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
+      <Login />
     </>
   )
 }
